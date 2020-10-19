@@ -373,6 +373,10 @@ body{
 
 .gridList_item{
     border-bottom: 1px dashed grey;
+    position:relative;
+
+    overflow:hidden;
+
 }
 
 .gridList_item p{
@@ -388,17 +392,48 @@ body{
     font-size: 1.5rem;
 }
 
+.dot_cont{
+    position:absolute;
+    top:50%;
+    height: 15px;
+    margin-top:-7.5px;
+    /*margin-left: 80%;*/
+    /*left: 74.5%;*/
+
+    /*float: right;*/
+
+    /*overflow:hidden;*/
+
+
+
+
+    right: 5px;                    /* NEW */
+    top: 50%;                      /* NEW */
+    /*transform: translateY(-50%);*/
+}
+
+
+
 .dot {
     height: 15px;
     width: 15px;
     background-color: lightgrey;
     border-radius: 100%;
     display: inline-block;
+
     margin-right: 3px;
 
+    /*margin-left: 3px;*/
     float: right;
-    position: relative;
-    top:-50%
+
+    margin-top: 0;
+    margin-bottom: 0;
+    /*position: relative;*/
+    /*top: -50%;*/
+
+
+
+
 }
 .filled_dot{
 
